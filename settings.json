@@ -1,0 +1,8 @@
+{
+  "status": "ready",
+  "sectionsEnabled": [ "search" ],
+  "fields": {
+    "adwords_schema": "adwords",
+    "adwords_etl": "fivetran"
+  }
+}
