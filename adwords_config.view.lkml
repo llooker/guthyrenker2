@@ -9,7 +9,7 @@ view: adwords_config {
   extension: required
 
   dimension: adwords_schema {
-    hidden: yes
+    hidden: no
     sql:adwords;;
   }
 }
