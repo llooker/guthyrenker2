@@ -7,15 +7,15 @@ remote_dependency: app-marketing-common {
 
 remote_dependency: app-marketing-google-ads-adapter {
   url: "git://github.com/looker/app-marketing-google-ads-fivetran-bigquery"
-  ref: "b491583a3ac3a1125e535b5c5855bd56e9aa41a5"
+  ref: "94f220d8940ec15999ecde0bc04d60ba0cf6dba2"
 }
 
 remote_dependency: app-marketing-google-ads {
   url: "git://github.com/looker/app-marketing-google-ads"
-  ref: "ceb4bcdc2ffaf41d5bafea40c3845f05e43a8a64"
+  ref: "a835b36c4f1c0ba3452b4a66c6fd1b198025c385"
 }
 
 remote_dependency: app-marketing-crosschannel {
   url: "git://github.com/looker/app-marketing-crosschannel"
-  ref: "d446ea0d6a2a3a1bed4f8eebd07a0828d0c85f94"
+  ref: "b293a78ce87f636a2e2fc52e995c14c5ecf4bc40"
 }

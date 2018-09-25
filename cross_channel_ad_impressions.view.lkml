@@ -1,3 +1,8 @@
+# Cross channel configuration for Marketing Analytics by Looker
+
+include: "/app-marketing-crosschannel/*.view"
+include: "/app-marketing-crosschannel/*.dashboard"
+
 view: cross_channel_ad_impressions_dt {
   derived_table: {
     sql:
@@ -18,5 +23,4 @@ view: cross_channel_ad_impressions_dt {
           google_ads_ad_impressions.ConversionValue AS conversionvalue
        FROM ${google_ads_ad_impressions.SQL_TABLE_NAME} as google_ads_ad_impressions ;;
   }
-  dimension: platform {}
 }
