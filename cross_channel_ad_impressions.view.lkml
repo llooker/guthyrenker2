@@ -8,6 +8,7 @@ view: cross_channel_ad_impressions_dt {
     sql:
       SELECT
          "Google Ads" as platform,
+          1 as sort_order,
           google_ads_ad_impressions.channel AS channel,
           google_ads_ad_impressions._date AS _date,
           google_ads_ad_impressions.account_id AS account_id,

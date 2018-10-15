@@ -2,7 +2,7 @@ project_name: "app-marketing-config"
 
 remote_dependency: app-marketing-common {
   url: "git://github.com/looker/app-marketing-common-bigquery"
-  ref: "0737e9bfe5c98ba2fde25cfec226d042d550418f"
+  ref: "b431dd8ea69be26391b3545b382ce151c1697711"
 }
 
 remote_dependency: app-marketing-google-ads-adapter {
@@ -12,10 +12,10 @@ remote_dependency: app-marketing-google-ads-adapter {
 
 remote_dependency: app-marketing-google-ads {
   url: "git://github.com/looker/app-marketing-google-ads"
-  ref: "a835b36c4f1c0ba3452b4a66c6fd1b198025c385"
+  ref: "847f45ca627a7138db360e0e6eae5bc3727fb52b"
 }
 
 remote_dependency: app-marketing-crosschannel {
   url: "git://github.com/looker/app-marketing-crosschannel"
-  ref: "b293a78ce87f636a2e2fc52e995c14c5ecf4bc40"
+  ref: "f02379b957fc4e38489d78ba0e214b638732dcb9"
 }
